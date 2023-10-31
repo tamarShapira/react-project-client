@@ -21,7 +21,7 @@ export default function SingleProduct({value}){
   }
   function addToCart(p) {
     console.log('item: ',value.id,value.name)
-    debugger
+    debugger;
     dispatch(addProductToCart(p))
     console.log('products of user: ',productListPerUser)
     swal("המוצר התווסף בהצלחה לעגלת הקניות שלכם","","success", {
